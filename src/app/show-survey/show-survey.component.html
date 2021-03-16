@@ -1,0 +1,15 @@
+<h1 align="center">Survey Forms</h1>
+<div *ngFor="let survey of this.surveys">
+    <!-- need to sort by date -->
+    <h2>SUBMIT DATE: {{survey['date']}}</h2>
+    <pre>FIRST NAME: {{survey['fName']}}    LAST NAME: {{survey['lName']}}</pre>
+    <pre>ADDRESS: {{survey['address']}}     CITY: {{survey['city']}}</pre>
+    <pre>STATE: {{survey['state']}}        ZIP: {{survey['zip']}}</pre>
+    <pre>PHONE: {{survey['phone']}}        EMAIL: {{survey['email']}}</pre>
+    <pre>What do you like the most about the campus? {{survey['campus']}}</pre>
+    <pre>How you became interested in the university? {{survey['reason']}}</pre>
+    <pre>How likely are you going to recommend this school to other prospective students? {{survey['likelihood']}}</pre>
+   
+    
+    <hr>
+</div>

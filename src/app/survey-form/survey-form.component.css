@@ -1,0 +1,110 @@
+h1 {
+	text-align:center;
+	color:rgb(25,25,255);
+	font-family:Impact;
+	background-image:url('./img content/oldpaper.jpg');
+	border:5px solid blue;
+	font-size:40px;
+	width:580px;
+	height:60px;
+	padding:10px;
+	margin-left: auto;
+ 	margin-right: auto;
+}
+h2 {
+	font-family:Lucida Sans Unicode;
+	color:rgb(25,25,255);
+	text-decoration: underline;
+}
+hr {
+	border-style:dotted;
+	border-width:2px;
+}
+body {
+	
+	background-image:url('./img content/homepage1.jpg');
+	background-size: cover;
+	background-attachment:fixed;
+	
+}
+
+div.form {
+	/*each side 280 pixel
+	rgb(220, 255, 245)*/
+	width:600px;
+	padding:20px;
+	background-color:rgb(220, 255, 245);
+	margin-left: auto;
+ 	margin-right: auto;
+ 	border-radius: 10px;
+ 	border:2px solid blue;
+}
+p.question {
+	color:red;
+	font-family:Arial Black;
+}
+p.professional {
+	color:red;
+	font-family:Book Antiqua;
+	font-size:20px;
+}
+/*=====================label=============================*/
+label.left {
+	font-family:Palatino Linotype;
+	font-size:15px;
+	display: inline-block;
+	width:245px;
+}
+label.right {
+	font-family:Palatino Linotype;
+	font-size:15px;
+	display: inline-block;
+	text-align: left;
+	width:200px;
+	
+}
+label.box {
+	font-family:Lucida Sans Unicode;
+	display:inline-block;
+	text-align:left;
+	width:100px;
+}
+/*=======================input===========================*/
+input.left {
+	border-radius:3px;
+	border:1px solid grey;
+	padding:10px;
+	display: inline-block;
+	width:225px;
+}
+input.right {
+	border-radius:3px;
+	border:1px solid grey;
+	padding:10px;
+	display: inline-block;
+	width:225px;
+}
+input.whole {
+	width:470px;
+	border-radius:3px;
+	border:1px solid grey;
+	padding:10px;
+}
+input.comment {
+	width:470px;
+	height:100px;
+	border-radius:3px;
+	border:1px solid grey;
+	padding:10px;
+}
+input[type=checkbox] {
+	margin-right:50px;
+}
+/*=======================select===========================**/
+select {
+	background-color:rgb(244, 166, 251);
+	width:200px;
+	height:30px;
+	font-size:17px;
+	border-color:transparent;
+}
