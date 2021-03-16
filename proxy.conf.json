@@ -1,0 +1,6 @@
+{
+  "/swe645-restful-api/restful": {
+    "target": "http://localhost:8080",
+    "secure": false
+  }
+}
